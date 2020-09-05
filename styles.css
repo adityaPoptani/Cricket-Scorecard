@@ -1,0 +1,112 @@
+body{
+  background-color: black;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.events{
+  display: inline-block;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  text-align: center;
+  background-color: white;
+  font-size: 2.5rem;
+  vertical-align: middle;
+  line-height: 5rem;
+
+  cursor: pointer;
+  /* padding-top: 0.1  %; */
+}
+
+.events:hover{
+  opacity: 0.5;
+}
+
+.scorecard{
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  width: 50%;
+  color: white;
+  font-size: 2rem;
+}
+
+.eventHistory {
+display: inline-block;
+height: 200px;
+width: 50%;
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 2%;
+border-radius: 20px;
+}
+
+.undoButton{
+  background-color: #006FFF;
+  width: 20%;
+  height: 50px;
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-bottom: 2%;
+  position: relative;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.undoButton:hover{
+  opacity: 0.5;
+}
+
+.resetButton{
+  background-color: #FF005C;
+  width: 20%;
+  height: 50px;
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-bottom: 2%;
+  position: relative;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.resetButton:hover{
+  opacity: 0.5;
+}
+
+.changes{
+  display: block;
+}
+
+.scorecard p{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* img {
+  zoom: 20%;
+}
+
+.batsman{
+  display: block;
+  position: absolute;
+  left: 60px;
+  bottom: 190px;
+} */
